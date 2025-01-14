@@ -38,7 +38,7 @@ console.log(`Alex 買完課程了，他一共剩下 ${AlexBudget} 元`);
 // 請參考資料夾內 q4.webp 圖片
 // 請依照你看到的內容來嘗試設計變數和值（至少 3 個）
 const lessons = 14;
-const lessonTime = '50min';
+const lessonTime = 50;
 const averageLessonPrice = 180;
 const totalPrice = lessons * averageLessonPrice;
 
@@ -98,7 +98,7 @@ let a = 8; // 範例：宣告了一個 a 的變數，並賦予了一個 8 的數
 let b = 0; // 宣告了一個 b 的變數，並賦予了一個 0 的數字型別
 a = 13; // 將 a 的變數重新賦予了一個 13 的數字型別
 a = b + 4; // 將 a 的變數重新賦予了一個 b 的變數加上 4 的數字型別
-a - b; // 將 a 的變數重新賦予了一個 a 的變數減去 b 的變數
+a - b; // 將 a 的變數重新賦予了一個 a 的變數減去 b 的變數。並未賦值
 b += 1; // 將 b 的變數重新賦予了一個 b 的變數加上 1 的數字型別
 
 // ### 題目九：型別查詢
