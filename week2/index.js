@@ -49,12 +49,13 @@ let BobPrice = 1800; /* Bob 消費金額 */
 let BobIsVip = false; /* Bob 是否為 VIP */
 
 // 練習：（可自行將下方程式碼的註解刪除，完成答題）
-// if (BobPrice >= giftPriceRule || BobIsVip == true) {
-//   console.log("客戶您好，您有符合贈品資格");
-//   giftNum -= 1;
-// } else {
-//   console.Log("客戶您好，您沒有符合贈品資格")
-// }
+
+if (BobPrice >= giftPriceRule || BobIsVip) {
+  console.log("客戶您好，您有符合贈品資格");
+  giftNum -= 1;
+} else {
+  console.Log("客戶您好，您沒有符合贈品資格")
+}
 
 console.log(`贈品還剩下${giftNum}個`);
 
@@ -263,11 +264,11 @@ const exerciseRecords = [
 ];
 
 // 範例：週一
-let mondayDuration = exerciseRecords[0].duration;
-if (exerciseRecords[0].duration >= 30 && exerciseRecords[0].heartRate >= 130) {
-  totalDuration += mondayDuration;
-  validDays += 1;
-}
+// let mondayDuration = exerciseRecords[0].duration;
+// if (exerciseRecords[0].duration >= 30 && exerciseRecords[0].heartRate >= 130) {
+//   totalDuration += mondayDuration;
+//   validDays += 1;
+// }
 
 // 練習：週二、週三、週四、週五、週六
 //週二
