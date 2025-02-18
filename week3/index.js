@@ -29,7 +29,7 @@ function addPurchaseRecord(name, courses) {
     console.log(`新增購買記錄成功！會員 ${name} 購買 ${courses} 堂課，總金額為 ${totalPrice} 元。`);
     
 }
-ddPurchaseRecord("Alice", 4);
+addPurchaseRecord("Alice", 4);
 addPurchaseRecord("Bob", 12); 
 addPurchaseRecord("Charlie", 25); 
 addPurchaseRecord("Hannah", 50); 
